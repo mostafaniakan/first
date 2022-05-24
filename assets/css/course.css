@@ -1,0 +1,145 @@
+body{
+    background-color: #EBECED;
+}
+
+.course-top-wrapper{
+    background-color: white;
+   margin-bottom: 10px;
+    margin-top: 7%;
+  
+}
+.course-top-wrapper img{
+    height: 300px;
+    
+}
+ .course-topbox{
+padding: 20px;
+background: rgba(255, 255, 255, .2);
+box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+text-align: center;
+border-radius: 5px;
+
+}
+.course-topbox h1{
+    color: #777;
+    font-size: 25px;
+}
+.course-topbox h3{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.course-topbox .single-course-price{
+    margin-top: 80px;
+    line-height: 1.8em;
+}
+.reg-pdf-buttons-wrapper{
+    margin-top: 20px;
+    
+}
+.reg-pdf-buttons-wrapper button:nth-child(1){
+    margin-left: 10px;
+}
+#main-container{
+    background-color: #EBECED;
+}
+.field-group{
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.field-group i{
+    color: #003975;
+    font-size: 25px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);;
+}
+.field-group span{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.field-group p{
+    margin: 10px 35px;
+    color: #333;
+    font-size: 12px;
+}
+.titel-course{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+.group-course-instructors{
+    margin-top: 40px;
+   
+}
+.group-course-instructors .main-frame{
+    background-color:white;
+    
+}
+.group-course-instructors .main-frame video{
+    width: 100%;
+}
+.group-outline{
+    background-color: white;
+    overflow: hidden;
+    line-height: 1.8em;
+    overflow: hidden;
+    height: 400px;
+}
+.titel-course span i{
+    margin-left: 10px;
+    color: #003975;
+}
+.field-group-html-element{
+    text-align: right;
+   
+}
+.field-group-html-element p{
+    position: relative;
+}
+.showmore-opacity{
+    width: 100%;
+    background-color: white;
+    height: 70px;
+  position: absolute;
+  bottom:30px;
+
+    opacity: 0.8;
+
+}
+.showmore-text{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+.mystyle {
+  
+height: 800px;
+}
+.group-prerequisites{
+    height: 200px;
+    background-color: white;
+    margin-top: 40px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+.tr-header{
+ background-color: rgb(231, 229, 229);
+ border-top: solid 2px rgb(187, 184, 184);
+}
+@media only screen and (max-width: 991px) {
+    footer{
+        margin-top: 100px;
+    }
+    tbody tr th{
+font-size: 10px;
+    }
+    .tr-header td{
+        font-size: 10px;
+    }
+    .btn-outline-warning{
+        font-size: 8px;
+    }
+}

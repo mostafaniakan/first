@@ -1,0 +1,140 @@
+html, body{
+height: 100%;
+}
+body{
+display: grid;
+font-family: Avenir;
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+}
+* {
+    box-sizing: border-box;
+}
+#garden {
+
+}
+.inp {
+     position: relative;
+     width: 100%;
+     max-width: 280px;
+    margin-top: 30px;
+margin-right: 10%;
+ }
+
+.inp span{
+    transition: 0.5s;
+}
+.inp:hover  span{
+    transform: translatey(-20px);
+color:#0077FF ;
+}
+.inp:hover input{
+border-bottom: 2px solid #0077FF ;
+}
+
+.label {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    font-size: 16px;
+    color: #9098A9;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transition: all .2s ease;
+}
+
+                   input {
+
+                       -webkit-appearance: none;
+                       width: 100%;
+                       border: 0;
+                       font-family: inherit;
+                       padding: 12px 0;
+                       height: 48px;
+                       font-size: 16px;
+                       font-weight: 500;
+                       border-bottom: 2px solid #C8CCD4;
+                       background: none;
+                       border-radius: 0;
+                   }
+input:active label{
+    transform: translatey(50);
+}
+form:nth-child(2){
+    margin-right: 10%;
+    margin-top: 20px;
+
+}
+form:nth-child(2) button{
+    float: left;
+   margin-top: 30px;
+}
+/*Forget*/
+.forget{
+    border: solid 1px #DEDEDE;
+
+    margin: auto;
+    border-radius: 30px;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.forget h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.forget span{
+    margin-right: 20px;
+    font-size: 16px;
+    color: black;
+}
+.subtitle{
+    border-bottom: #DEDEDE 1px solid;
+    margin-bottom: 20px;
+
+}
+.forget i {
+   font-size: 30px;
+position: absolute;
+    margin-top: 6px;
+    color: #4e555b;
+}
+.forget input{
+    border: none;!important;
+    padding-right: 40px;
+
+}
+.forget label{
+    padding-right: 10px;
+    border: solid 1px #DEDEDE;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.forget button{
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #0077FF;
+    text-shadow: 0 3px 5px rgba(0,0,0,0.25);
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #0077FF;
+    transition: 0.8s all;
+    color: #0077FF;
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.forget button:hover{
+    box-shadow: inset 400px 50px 0 0 #0077FF;
+    color:white;
+}
+.brand{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Forget*/
